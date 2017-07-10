@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C32A6C951F13B75D00A2EABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6C941F13B75D00A2EABC /* AppDelegate.swift */; };
+		C32A6C971F13B75D00A2EABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6C961F13B75D00A2EABC /* ViewController.swift */; };
+		C32A6C9A1F13B75D00A2EABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32A6C981F13B75D00A2EABC /* Main.storyboard */; };
+		C32A6C9C1F13B75D00A2EABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32A6C9B1F13B75D00A2EABC /* Assets.xcassets */; };
+		C32A6C9F1F13B75D00A2EABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32A6C9D1F13B75D00A2EABC /* LaunchScreen.storyboard */; };
+		C32A6CAA1F13B75D00A2EABC /* SummerPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6CA91F13B75D00A2EABC /* SummerPracticeTests.swift */; };
+		C32A6CB51F13B75D00A2EABC /* SummerPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6CB41F13B75D00A2EABC /* SummerPracticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32A6CA61F13B75D00A2EABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32A6C891F13B75C00A2EABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32A6C901F13B75D00A2EABC;
+			remoteInfo = SummerPractice;
+		};
+		C32A6CB11F13B75D00A2EABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32A6C891F13B75C00A2EABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32A6C901F13B75D00A2EABC;
+			remoteInfo = SummerPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C32A6C911F13B75D00A2EABC /* SummerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32A6C941F13B75D00A2EABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C32A6C961F13B75D00A2EABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32A6C991F13B75D00A2EABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32A6C9B1F13B75D00A2EABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32A6C9E1F13B75D00A2EABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32A6CA01F13B75D00A2EABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32A6CA51F13B75D00A2EABC /* SummerPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32A6CA91F13B75D00A2EABC /* SummerPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerPracticeTests.swift; sourceTree = "<group>"; };
+		C32A6CAB1F13B75D00A2EABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32A6CB01F13B75D00A2EABC /* SummerPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32A6CB41F13B75D00A2EABC /* SummerPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerPracticeUITests.swift; sourceTree = "<group>"; };
+		C32A6CB61F13B75D00A2EABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32A6C8E1F13B75D00A2EABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A6CA21F13B75D00A2EABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A6CAD1F13B75D00A2EABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C32A6C881F13B75C00A2EABC = {
+			isa = PBXGroup;
+			children = (
+				C32A6C931F13B75D00A2EABC /* SummerPractice */,
+				C32A6CA81F13B75D00A2EABC /* SummerPracticeTests */,
+				C32A6CB31F13B75D00A2EABC /* SummerPracticeUITests */,
+				C32A6C921F13B75D00A2EABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C32A6C921F13B75D00A2EABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32A6C911F13B75D00A2EABC /* SummerPractice.app */,
+				C32A6CA51F13B75D00A2EABC /* SummerPracticeTests.xctest */,
+				C32A6CB01F13B75D00A2EABC /* SummerPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32A6C931F13B75D00A2EABC /* SummerPractice */ = {
+			isa = PBXGroup;
+			children = (
+				C32A6C941F13B75D00A2EABC /* AppDelegate.swift */,
+				C32A6C961F13B75D00A2EABC /* ViewController.swift */,
+				C32A6C981F13B75D00A2EABC /* Main.storyboard */,
+				C32A6C9B1F13B75D00A2EABC /* Assets.xcassets */,
+				C32A6C9D1F13B75D00A2EABC /* LaunchScreen.storyboard */,
+				C32A6CA01F13B75D00A2EABC /* Info.plist */,
+			);
+			path = SummerPractice;
+			sourceTree = "<group>";
+		};
+		C32A6CA81F13B75D00A2EABC /* SummerPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32A6CA91F13B75D00A2EABC /* SummerPracticeTests.swift */,
+				C32A6CAB1F13B75D00A2EABC /* Info.plist */,
+			);
+			path = SummerPracticeTests;
+			sourceTree = "<group>";
+		};
+		C32A6CB31F13B75D00A2EABC /* SummerPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32A6CB41F13B75D00A2EABC /* SummerPracticeUITests.swift */,
+				C32A6CB61F13B75D00A2EABC /* Info.plist */,
+			);
+			path = SummerPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32A6C901F13B75D00A2EABC /* SummerPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32A6CB91F13B75D00A2EABC /* Build configuration list for PBXNativeTarget "SummerPractice" */;
+			buildPhases = (
+				C32A6C8D1F13B75D00A2EABC /* Sources */,
+				C32A6C8E1F13B75D00A2EABC /* Frameworks */,
+				C32A6C8F1F13B75D00A2EABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerPractice;
+			productName = SummerPractice;
+			productReference = C32A6C911F13B75D00A2EABC /* SummerPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32A6CA41F13B75D00A2EABC /* SummerPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32A6CBC1F13B75D00A2EABC /* Build configuration list for PBXNativeTarget "SummerPracticeTests" */;
+			buildPhases = (
+				C32A6CA11F13B75D00A2EABC /* Sources */,
+				C32A6CA21F13B75D00A2EABC /* Frameworks */,
+				C32A6CA31F13B75D00A2EABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32A6CA71F13B75D00A2EABC /* PBXTargetDependency */,
+			);
+			name = SummerPracticeTests;
+			productName = SummerPracticeTests;
+			productReference = C32A6CA51F13B75D00A2EABC /* SummerPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32A6CAF1F13B75D00A2EABC /* SummerPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32A6CBF1F13B75D00A2EABC /* Build configuration list for PBXNativeTarget "SummerPracticeUITests" */;
+			buildPhases = (
+				C32A6CAC1F13B75D00A2EABC /* Sources */,
+				C32A6CAD1F13B75D00A2EABC /* Frameworks */,
+				C32A6CAE1F13B75D00A2EABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32A6CB21F13B75D00A2EABC /* PBXTargetDependency */,
+			);
+			name = SummerPracticeUITests;
+			productName = SummerPracticeUITests;
+			productReference = C32A6CB01F13B75D00A2EABC /* SummerPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32A6C891F13B75C00A2EABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Alina;
+				TargetAttributes = {
+					C32A6C901F13B75D00A2EABC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C32A6CA41F13B75D00A2EABC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C32A6C901F13B75D00A2EABC;
+					};
+					C32A6CAF1F13B75D00A2EABC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C32A6C901F13B75D00A2EABC;
+					};
+				};
+			};
+			buildConfigurationList = C32A6C8C1F13B75C00A2EABC /* Build configuration list for PBXProject "SummerPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32A6C881F13B75C00A2EABC;
+			productRefGroup = C32A6C921F13B75D00A2EABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32A6C901F13B75D00A2EABC /* SummerPractice */,
+				C32A6CA41F13B75D00A2EABC /* SummerPracticeTests */,
+				C32A6CAF1F13B75D00A2EABC /* SummerPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32A6C8F1F13B75D00A2EABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32A6C9F1F13B75D00A2EABC /* LaunchScreen.storyboard in Resources */,
+				C32A6C9C1F13B75D00A2EABC /* Assets.xcassets in Resources */,
+				C32A6C9A1F13B75D00A2EABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A6CA31F13B75D00A2EABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A6CAE1F13B75D00A2EABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32A6C8D1F13B75D00A2EABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32A6C971F13B75D00A2EABC /* ViewController.swift in Sources */,
+				C32A6C951F13B75D00A2EABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A6CA11F13B75D00A2EABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32A6CAA1F13B75D00A2EABC /* SummerPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32A6CAC1F13B75D00A2EABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32A6CB51F13B75D00A2EABC /* SummerPracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32A6CA71F13B75D00A2EABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32A6C901F13B75D00A2EABC /* SummerPractice */;
+			targetProxy = C32A6CA61F13B75D00A2EABC /* PBXContainerItemProxy */;
+		};
+		C32A6CB21F13B75D00A2EABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32A6C901F13B75D00A2EABC /* SummerPractice */;
+			targetProxy = C32A6CB11F13B75D00A2EABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32A6C981F13B75D00A2EABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32A6C991F13B75D00A2EABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32A6C9D1F13B75D00A2EABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32A6C9E1F13B75D00A2EABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32A6CB71F13B75D00A2EABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32A6CB81F13B75D00A2EABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32A6CBA1F13B75D00A2EABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SummerPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Folder.SummerPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C32A6CBB1F13B75D00A2EABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SummerPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Folder.SummerPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C32A6CBD1F13B75D00A2EABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SummerPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Folder.SummerPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerPractice.app/SummerPractice";
+			};
+			name = Debug;
+		};
+		C32A6CBE1F13B75D00A2EABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SummerPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Folder.SummerPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerPractice.app/SummerPractice";
+			};
+			name = Release;
+		};
+		C32A6CC01F13B75D00A2EABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SummerPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Folder.SummerPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SummerPractice;
+			};
+			name = Debug;
+		};
+		C32A6CC11F13B75D00A2EABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SummerPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Folder.SummerPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SummerPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32A6C8C1F13B75C00A2EABC /* Build configuration list for PBXProject "SummerPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32A6CB71F13B75D00A2EABC /* Debug */,
+				C32A6CB81F13B75D00A2EABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32A6CB91F13B75D00A2EABC /* Build configuration list for PBXNativeTarget "SummerPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32A6CBA1F13B75D00A2EABC /* Debug */,
+				C32A6CBB1F13B75D00A2EABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32A6CBC1F13B75D00A2EABC /* Build configuration list for PBXNativeTarget "SummerPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32A6CBD1F13B75D00A2EABC /* Debug */,
+				C32A6CBE1F13B75D00A2EABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C32A6CBF1F13B75D00A2EABC /* Build configuration list for PBXNativeTarget "SummerPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32A6CC01F13B75D00A2EABC /* Debug */,
+				C32A6CC11F13B75D00A2EABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32A6C891F13B75C00A2EABC /* Project object */;
+}
