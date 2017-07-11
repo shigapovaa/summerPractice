@@ -10,10 +10,11 @@
 		C32A6C951F13B75D00A2EABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6C941F13B75D00A2EABC /* AppDelegate.swift */; };
 		C32A6C971F13B75D00A2EABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6C961F13B75D00A2EABC /* ViewController.swift */; };
 		C32A6C9A1F13B75D00A2EABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32A6C981F13B75D00A2EABC /* Main.storyboard */; };
-		C32A6C9C1F13B75D00A2EABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32A6C9B1F13B75D00A2EABC /* Assets.xcassets */; };
+		C32A6C9C1F13B75D00A2EABC /* nochnaya-veneciya-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C32A6C9B1F13B75D00A2EABC /* nochnaya-veneciya-1.jpg */; };
 		C32A6C9F1F13B75D00A2EABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32A6C9D1F13B75D00A2EABC /* LaunchScreen.storyboard */; };
 		C32A6CAA1F13B75D00A2EABC /* SummerPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6CA91F13B75D00A2EABC /* SummerPracticeTests.swift */; };
 		C32A6CB51F13B75D00A2EABC /* SummerPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6CB41F13B75D00A2EABC /* SummerPracticeUITests.swift */; };
+		C32A6CC31F13C45A00A2EABC /* registraitionControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32A6CC21F13C45A00A2EABC /* registraitionControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		C32A6C941F13B75D00A2EABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32A6C961F13B75D00A2EABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C32A6C991F13B75D00A2EABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C32A6C9B1F13B75D00A2EABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32A6C9B1F13B75D00A2EABC /* nochnaya-veneciya-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nochnaya-veneciya-1.jpg"; path = "../../../Downloads/nochnaya-veneciya-1.jpg"; sourceTree = "<group>"; };
 		C32A6C9E1F13B75D00A2EABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32A6CA01F13B75D00A2EABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32A6CA51F13B75D00A2EABC /* SummerPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,7 @@
 		C32A6CB01F13B75D00A2EABC /* SummerPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32A6CB41F13B75D00A2EABC /* SummerPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummerPracticeUITests.swift; sourceTree = "<group>"; };
 		C32A6CB61F13B75D00A2EABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32A6CC21F13C45A00A2EABC /* registraitionControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = registraitionControllerViewController.swift; path = ../registraitionControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,9 @@
 			children = (
 				C32A6C941F13B75D00A2EABC /* AppDelegate.swift */,
 				C32A6C961F13B75D00A2EABC /* ViewController.swift */,
+				C32A6CC21F13C45A00A2EABC /* registraitionControllerViewController.swift */,
 				C32A6C981F13B75D00A2EABC /* Main.storyboard */,
-				C32A6C9B1F13B75D00A2EABC /* Assets.xcassets */,
+				C32A6C9B1F13B75D00A2EABC /* nochnaya-veneciya-1.jpg */,
 				C32A6C9D1F13B75D00A2EABC /* LaunchScreen.storyboard */,
 				C32A6CA01F13B75D00A2EABC /* Info.plist */,
 			);
@@ -233,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32A6C9F1F13B75D00A2EABC /* LaunchScreen.storyboard in Resources */,
-				C32A6C9C1F13B75D00A2EABC /* Assets.xcassets in Resources */,
+				C32A6C9C1F13B75D00A2EABC /* nochnaya-veneciya-1.jpg in Resources */,
 				C32A6C9A1F13B75D00A2EABC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32A6C971F13B75D00A2EABC /* ViewController.swift in Sources */,
+				C32A6CC31F13C45A00A2EABC /* registraitionControllerViewController.swift in Sources */,
 				C32A6C951F13B75D00A2EABC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
